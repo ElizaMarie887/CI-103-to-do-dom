@@ -10,3 +10,21 @@ h1{
 li{
     color: blueviolet;
 }
+
+#addButton{
+    background-color: rgb(65, 214, 65);
+    border: rgb(1, 1, 1) solid 2px;
+    box-shadow: 10px 5px 5px rgb(99,91,91);
+}
+
+#removeItem{
+    background-color: rgb(225, 101, 101);
+    border: black solid 2px;
+    box-shadow: 10px 5px 5px rgb(99, 91, 91);
+}
+
+#removeAll{
+    background-color: red;
+    border: black solid 2px;
+    box-shadow: 10px 5px 5px rgb(99, 91, 91)
+}

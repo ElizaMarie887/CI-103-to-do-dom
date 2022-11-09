@@ -45,12 +45,11 @@ addButton.addEventListener('click', function(event){
     listitem.addEventListener('click', function(){
         if(listitem.style.textDecoration === 'line-through'){
             listitem.style.textDecoration = ''
-            listitem.innerText = addText.value 
+            istitem.innerText = addText.value 
         } else if (listitem.style.textDecoration === ''){
             listitem.style.textDecoration = 'line-through'
-            listitem.innerText = addText.value + "-completed";
-            listitem.classList.add('completed')
-            //console.log(listitem.classList)
+            listitem.classList.add('.completed')
+            console.log(listitem.classList)
         }
     })
 addText.value = ""
@@ -62,14 +61,12 @@ removeAll.addEventListener('click', function(){
     orderedlist.removeAll('li')
 })
 
-//event listener to remove line-through items
+//remove items not working currently
 
-removeItem.addEventListener('click', function(event){
-    event.preventDefault
-    let toDelete = document.querySelectorAll('.completed')
+// removeItem.addEventListener('click', function(event){
+//     event.preventDefault
+//     let completed = document.querySelectorAll('.completed')
 
-    toDelete.forEach(item =>{
-        item.remove('.completed')
-    })
-})
+//     completed.foreach(item => {item.remove()})
 
+//     })
