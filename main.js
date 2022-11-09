@@ -45,7 +45,7 @@ addButton.addEventListener('click', function(event){
     listitem.addEventListener('click', function(){
         if(listitem.style.textDecoration === 'line-through'){
             listitem.style.textDecoration = ''
-            istitem.innerText = addText.value 
+            listitem.innerText = addText.value 
         } else if (listitem.style.textDecoration === ''){
             listitem.style.textDecoration = 'line-through'
             listitem.classList.add('.completed')
